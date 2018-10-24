@@ -2,11 +2,12 @@
   <section class="container">
     <div>
       <logo/>
-      <h1 class="title">
+      <div class="s"> gsgsg</div>
+      <h1 class="red">
         mt-app
       </h1>
       <h2 class="subtitle">
-        My breathtaking Nuxt.js project
+        My breathtaking Nuxt.js projectgxxx
       </h2>
       <div class="links">
         <a
@@ -32,7 +33,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 .container {
   min-height: 100vh;
@@ -40,6 +41,9 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  .s {
+  color: green
+  }
 }
 
 .title {

@@ -19,13 +19,15 @@
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.6",
     "koa": "^2.5.2",
-    "nuxt": "^2.0.0"
+    "node-sass": "^4.9.4",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "eslint": "^5.0.1",
+    "eslint": "^3.19.0",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^1.11.0"

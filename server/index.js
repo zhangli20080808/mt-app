@@ -34,7 +34,7 @@ async function start() {
       })
     })
   })
-
+  app.on("error",function(){});
   app.listen(port, host)
   consola.ready({
     message: `Server listening on http://${host}:${port}`,
